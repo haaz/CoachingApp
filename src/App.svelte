@@ -1,12 +1,17 @@
 <script>
 	import Router from "svelte-spa-router";
 	import routes from "./routes";
+
+
 </script>
 
 <!-- This part is always displayed -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#/">Infections DB</a>
+		<a class="navbar-brand" href="#/"
+			>ECE - Experience Coaching with Experts
+		</a>
 		<button
 			class="navbar-toggler"
 			type="button"
@@ -18,10 +23,20 @@
 		>
 			<span class="navbar-toggler-icon" />
 		</button>
+
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav ">
 				<li class="nav-item">
-					<a class="nav-link" href="#/demo">Demo</a>
+					<a class="nav-link" href="#/home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#/experts">Experts</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#/experiences">Experiences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#/coachings">Coachings</a>
 				</li>
 			</ul>
 		</div>
